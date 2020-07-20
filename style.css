@@ -1,0 +1,60 @@
+.container {
+  max-width: 80% !important;
+  background-color: white;
+}
+.logo {
+  height: 150px;
+  width: 150px;
+}
+.hrline {
+  border-bottom: 3px solid;
+  margin-top: 20px;
+}
+.poster {
+  width: 90%;
+  margin-bottom: 20px;
+}
+.listclass {
+  display: flex;
+  font-size: 20px;
+  margin: 10px 0px 10px 86px;
+}
+
+.inputlable {
+  font-family: serif;
+  font-size: 18px;
+}
+
+.inputfields {
+  background-color: lightgray;
+  border: none;
+  height: 30px;
+  border-radius: 8px;
+  padding: 0px 0px 0px 10px;
+  font-size: 16px;
+  width: 95%;
+}
+
+.submitbtn {
+  background-color: blue;
+  color: white;
+  border: none;
+  height: 30px;
+  width: 80px;
+  margin-top: 16px;
+  border-radius: 6px;
+}
+
+button:hover {
+  background-color: green;
+}
+
+@media only screen and (max-width: 360px) {
+  body {
+    background-color: lightblue;
+  }
+  .listclass {
+    display: initial;
+    margin: 10px 0px 10px 41px !important;
+  }
+}

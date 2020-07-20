@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"
+    />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <!-- Latest compiled and minified CSS -->
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+      integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+      crossorigin="anonymous"
+    />
+    <!-- Optional theme -->
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css"
+      integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp"
+      crossorigin="anonymous"
+    />
+    <!-- Latest compiled and minified JavaScript -->
+    <script
+      src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
+      integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link  rel="stylesheet" href="./style.css"  type="text/css" />
+    <title>Event Registartion</title>
+  <body>
+    <div style="background-color: lightgray;">
+      <div class="container" style="width: 80% !important;">
+        <div style="margin-bottom: 50px;">
+          <img src="corps.PNG" alt="Company Logo" class="logo" />
+          <div class="hrline"></div>
+          <div class="heading">
+            <h1>Cyber Scurity confremce During Covid Times</h1>
+            <h4>23 july , 2020</h4>
+            <img src="eventPoster.jpeg" alt="Poster of event" class="poster" />
+          </div>
+
+          <div class="progress">
+            <div
+              class="progress-bar progress-bar-striped bg-info"
+              role="progressbar"
+              style="width: 75%;"
+              aria-valuenow="50"
+              aria-valuemin="0"
+              aria-valuemax="100"
+            >
+              75%
+            </div>
+          </div>
+          <ol type="1" class="listclass">
+            <li style="margin-right: 80px;">Register</li>
+            <li style="margin-right: 80px;">Add Delegate</li>
+            <li style="margin-right: 80px;">Review</li>
+            <li style="margin-right: 80px;">Payment</li>
+          </ol>
+
+          <table class="table">
+            <thead class="thead-dark" style="background-color: darkgray;">
+              <tr>
+                <th scope="col">Delagates Discounts</th>
+                <th scope="col">Delagets % off</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>3 delegates off</td>
+                <td>
+                  <div class="progress">
+                    <div
+                      class="progress-bar progress-bar-striped bg-info"
+                      role="progressbar"
+                      style="width: 15%;"
+                      aria-valuenow="50"
+                      aria-valuemin="0"
+                      aria-valuemax="100"
+                    >
+                      15%
+                    </div>
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <td>5 delegates off</td>
+                <td>
+                  <div class="progress">
+                    <div
+                      class="progress-bar progress-bar-striped bg-info"
+                      role="progressbar"
+                      style="width: 25%;"
+                      aria-valuenow="50"
+                      aria-valuemin="0"
+                      aria-valuemax="100"
+                    >
+                      25%
+                    </div>
+                  </div>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+          <div calss="FormInput">
+            <div class="row">
+              <div class="col-sm-6">
+                <div class="row">
+                  <div class="col-sm-6">
+                    <label class="inputlable">Firts Name</label>
+                  </div>
+                  <div class="col-sm-6">
+                    <input
+                      class="inputfields"
+                      type="text"
+                      placeholder="Enter your first name"
+                      id="firstname"
+                      onkeyup = "hideval('FnamEerrmsg')"
+                    /> <br/>
+                    <span id="FnamEerrmsg"> </span>
+                  </div>
+                </div>
+                <br />
+                <div class="row">
+                  <div class="col-sm-6">
+                    <label class="inputlable">DOB</label>
+                  </div>
+                  <div class="col-sm-6">
+                    <input class="inputfields" type="date" />
+                  </div>
+                </div>
+                <br />
+                <div class="row">
+                  <div class="col-sm-6">
+                    <label class="inputlable">Phone Number</label>
+                  </div>
+                  <div class="col-sm-6">
+                    <input
+                      class="inputfields"
+                      type="text"
+                      placeholder="Enter your Phone Number "
+                      id="PhoneNumber"
+                      onkeyup = "hideval('errPhonnumber')"
+                    /><br/>
+                    <span id="errPhonnumber"></span>
+                  </div>
+                </div>
+                <br />
+                <div class="row">
+                  <div class="col-sm-6">
+                    <label class="inputlable">Organisation</label>
+                  </div>
+                  <div class="col-sm-6">
+                    <input
+                      class="inputfields"
+                      type="text"
+                      placeholder="Enter name of org"
+                    />
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-6">
+                <div class="row">
+                  <div class="col-sm-6">
+                    <label class="inputlable">Last Name</label>
+                  </div>
+                  <div class="col-sm-6">
+                    <input
+                      class="inputfields"
+                      type="text"
+                      placeholder="Enter your Last name"
+                    />
+                  </div>
+                </div>
+                <br />
+                <div class="row">
+                  <div class="col-sm-6">
+                    <label class="inputlable">Email</label>
+                  </div>
+                  <div class="col-sm-6">
+                    <input
+                      class="inputfields"
+                      type="text"
+                      placeholder="Enter Your Email"
+                      id="Email"
+                      onkeyup = "hideval('emailErrmsg')"
+                    /><br/>
+                    <span id="emailErrmsg"></span>
+                  </div>
+                </div>
+                <br />
+
+                <div class="row">
+                  <div class="col-sm-6">
+                    <label class="inputlable"> Choose Role</label>
+                  </div>
+                  <div class="col-sm-6">
+                    <select class="inputfields">
+                      <option value="">---None---</option>
+                      <option value="Deleagets">Deleagets</option>
+                      <option value="Deleagets">Booking Contact</option>
+                    </select>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-sm-12">
+                <br />
+                <input type="checkbox" />
+                <label class="inputlable"
+                  >please agree to
+                  <a href="https://www.google.com/" target="_blank"
+                    >tearms and conditions</a
+                  >
+                </label>
+                <br />
+                <button onclick="validate()" class="submitbtn">Submit</button> <br />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="./Script.js" />
+  </body>
+</html>
+
+
